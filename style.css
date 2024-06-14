@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 94%);
+    
+}
+
+.box {
+    height: 56vh;
+    width: 40vw;
+    background-color: white;
+    border-bottom-right-radius: 17vw;
+    border-top-left-radius: 0.8vw;
+    border-top-right-radius: 0.8vw;
+    border-bottom-left-radius: 0.8vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms {
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    gap: 2vh;
+    
+}
+
+.forms input {
+    height: 7vh;
+    width: 8vw;
+    border: 0.5px solid hsl(0, 11%, 77%);
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 2vh 1vw;
+    
+}
+
+.msg {
+    font-family: "Poppins";
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.7vh;
+    color: hsl(0, 1%, 44%);
+    margin-bottom: 3px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 95%;
+    margin-top: 10px;
+    
+}
+img {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    height: 10vh; /* Adjust the height as needed */
+    width: 5vw; /* Adjust the width as needed */
+    padding: 18px 2px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-size: 4.5vw;
+    font-style: italic;
+    
+}
+
+span{
+    font-family: "Poppins";
+    font-size: 4.5vw;
+    color: hsl(259, 100%, 65%);
+}
+
+.need {
+    font-family: "Poppins";
+    color: hsl(0, 100%, 67%);
+    font-size: 11.8px;
+    
+    font-style: italic;
+    margin-top: 4px;
+}
+
+@media screen and (max-width : 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(0, 0%, 94%);
+        
+    }
+    
+    .box {
+        height: 56vh;
+        width: 50vw;
+        background-color: white;
+        border-bottom-right-radius: 17vw;
+        border-top-left-radius: 0.8vw;
+        border-top-right-radius: 0.8vw;
+        border-bottom-left-radius: 0.8vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .forms {
+        display: flex;
+        margin-top: 2vh;
+        margin-left: 2vw;
+        gap: 2vh;
+    }
+    
+    .forms input {
+        height: 7vh;
+        width: 8vw;
+        border: 0.5px solid hsl(0, 11%, 77%);
+        border-radius: 5px;
+        font-family: "Poppins";
+        font-size: 1.5vw;
+        font-weight: bold;
+        padding: 2vh 1vw;
+        
+    }
+    
+    .msg {
+        font-family: "Poppins";
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 1.7vh;
+        color: hsl(0, 1%, 44%);
+        margin-bottom: 3px;
+        
+    }
+    
+    .img{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 95%;
+        margin-top: 10px;
+        
+    }
+    img {
+        background-color: hsl(259, 100%, 65%);
+        border-radius: 50%;
+        height: 10vh; /* Adjust the height as needed */
+        width: 5vw; /* Adjust the width as needed */
+        padding: 18px 2px;
+    }
+    
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        justify-content: center;
+        position: absolute;
+        top: 35%;
+    }
+    
+    h1 {
+        font-family: "Poppins";
+        font-size: 4.5vw;
+        font-style: italic;
+        margin-top: 2vh;
+    }
+    
+    span{
+        font-family: "Poppins";
+        font-size: 4.5vw;
+        color: hsl(259, 100%, 65%);
+    }
+    
+    .need {
+        font-family: "Poppins";
+        color: hsl(0, 100%, 67%);
+        font-size: 11.8px;
+        font-style: italic;
+        margin-top: 4px;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(0, 0%, 94%);
+        
+    }
+    
+    .box {
+        height: 56vh;
+        width: 60vw;
+        background-color: white;
+        border-bottom-right-radius: 17vw;
+        border-top-left-radius: 0.8vw;
+        border-top-right-radius: 0.8vw;
+        border-bottom-left-radius: 0.8vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .forms {
+        display: flex;
+        margin-top: 2vh;
+        margin-left: 2vw;
+        gap: 2vh;
+    }
+    
+    .forms input {
+        height: 2vh;
+        width: 12vw;
+        border: 0.5px solid hsl(0, 11%, 77%);
+        border-radius: 5px;
+        font-family: "Poppins";
+        font-size: 3vw;
+        font-weight: bold;
+        padding: 2vh 1vw;
+        
+    }
+    
+    .msg {
+        font-family: "Poppins";
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 1.7vh;
+        color: hsl(0, 1%, 44%);
+        margin-bottom: 3px;
+        
+    }
+    
+    .img{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 95%;
+        margin-top: 10px;
+        
+    }
+    img {
+        background-color: hsl(259, 100%, 65%);
+        border-radius: 50%;
+        height: 5vh; /* Adjust the height as needed */
+        width: 5vw; /* Adjust the width as needed */
+        /* padding: 18px 2px; */
+    }
+    
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        justify-content: center;
+        position: absolute;
+        top: 35%;
+    }
+    
+    h1 {
+        font-family: "Poppins";
+        font-size: 8vw;
+        font-style: italic;
+        margin-top: 5vh;
+    }
+    
+    span{
+        font-family: "Poppins";
+        font-size: 8vw;
+        color: hsl(259, 100%, 65%);
+    }
+    
+    .need {
+        font-family: "Poppins";
+        color: hsl(0, 100%, 67%);
+        font-size: 2vw;
+        font-style: italic;
+        margin-top: 4px;
+    }
+}
